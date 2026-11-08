@@ -1,6 +1,6 @@
 {
- "version": "0.1.2",
- "notes": "New:\n- Water is about 5x faster: the solver now uses all CPU cores, only computes where water is, and reuses the last pressure result.\n- Results are identical on every PC and with any number of cores.\n- Water is one blue; each particle has a faint white outline. Press O to switch to solid blue.\n- Controls are listed in a bar at the top.\n- Ctrl + left mouse removes water, Ctrl + right mouse removes concrete.\n- Mouse wheel changes the brush size; brush shape Square or Circle (buttons top right, or B).\n- Pouring only fills empty pixels; concrete drawn into water removes the water there.\n\nKnown limits:\n- All graphics are placeholders.\n- More speed work (pressure solver) continues in 1.2.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.zip",
- "size": 39289471
+ "version": "0.1.2.1",
+ "notes": "New in 0.1.2.1:\n- Settings window (Esc or the Settings button): display mode (windowed, borderless or exclusive fullscreen), window size including 21:9 sizes, widescreen, pixel scaling, antialiasing, VSync, max FPS, water look, show stats. Settings are saved and kept across updates.\n- Widescreen: the game fills any screen (16:9, 21:9, 32:9...) with no black bars. The level stays the same size and centred; wider screens show more around it. Black bars are an option.\n- Fixed: water ran too fast on high refresh rate screens (e.g. 2.4x at 144 Hz). It now always runs at real speed.\n\nFrom 0.1.2:\n- Water is about 5x faster (all CPU cores, only computes where water is). Identical results on every PC.\n- Water is one blue; each particle has a faint white outline (O switches to solid blue).\n- Ctrl + left mouse removes water, Ctrl + right mouse removes concrete, mouse wheel changes brush size, Square/Circle brush (or B).\n\nKnown limits:\n- All graphics are placeholders.\n- Antialiasing softens pixel art; Off is recommended.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.1.zip",
+ "size": 39297254
 }
