@@ -1,6 +1,6 @@
 {
  "version": "0.1.2",
- "notes": "New:\n- Water is about 5x faster: the solver now uses all CPU cores, only computes where water is, and reuses the last pressure result.\n- Results are identical on every PC and with any number of cores.\n- Water is drawn in one solid blue (no white).\n- Controls are listed in a bar at the top.\n- Ctrl + left mouse removes water, Ctrl + right mouse removes concrete.\n- Mouse wheel changes the brush size; brush shape Square or Circle (buttons top right, or B).\n- Pouring only fills empty pixels; concrete drawn into water pushes that water out.\n\nKnown limits:\n- All graphics are placeholders.\n- More speed work (pressure solver) continues in 1.2.",
+ "notes": "New:\n- Water is about 5x faster: the solver now uses all CPU cores, only computes where water is, and reuses the last pressure result.\n- Results are identical on every PC and with any number of cores.\n- Water is one blue; each particle has a faint white outline. Press O to switch to solid blue.\n- Controls are listed in a bar at the top.\n- Ctrl + left mouse removes water, Ctrl + right mouse removes concrete.\n- Mouse wheel changes the brush size; brush shape Square or Circle (buttons top right, or B).\n- Pouring only fills empty pixels; concrete drawn into water pushes that water out.\n\nKnown limits:\n- All graphics are placeholders.\n- More speed work (pressure solver) continues in 1.2.",
  "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.zip",
- "size": 39287515
+ "size": 39289471
 }
