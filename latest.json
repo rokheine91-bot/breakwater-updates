@@ -1,6 +1,6 @@
 {
- "version": "0.1.2.4",
- "notes": "New in 0.1.2.4 - crash fix, logger and debug tools:\n- Fixed the crash in 0.1.2.3 on Windows: the water module could not hand its picture to the game, every frame.\n- Logger: everything is written to %APPDATA%\\TsunamiDefense\\logs (system info, settings, every action, performance every 5 s, every engine error). Lines are saved at once, so they survive a crash. The last 10 sessions are kept.\n- If the game did not close normally last time, it tells you on the next start and keeps that log.\n- F3: debug overlay with frame and solver time graph, solver phase timings, water health checks, memory and the latest log lines.\n- F12: bug report - saves a screenshot, this and the previous session's log and the current state to %APPDATA%\\TsunamiDefense\\reports.\n- The launcher now writes install.log next to the game.\n\nFrom 0.1.2.3: realistic water look (depth colour, light, foam), O switches the look.\nFrom 0.1.2.2: water keeps its volume (D switches the fix).\nFrom 0.1.2.1 / 0.1.2: settings (Esc), widescreen, real-time speed, faster solver, brush tools.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.4.zip",
- "size": 39249539
+ "version": "0.1.2.5",
+ "notes": "New in 0.1.2.5 - automatic bug reports:\n- After a crash, the next start makes a bug report by itself and sends it to the developer.\n- The first serious error in a session also makes and sends a report automatically.\n- F12 makes and sends a report at once.\n- A report holds both session logs, the game state and a screenshot. If sending fails (offline), it is kept and sent on a later start.\n\nFrom 0.1.2.4: crash fix, logger (%APPDATA%\\TsunamiDefense\\logs), F3 debug overlay.\nFrom 0.1.2.3: realistic water look (O switches).\nFrom 0.1.2.2: water keeps its volume (D switches the fix).\nFrom 0.1.2.1 / 0.1.2: settings (Esc), widescreen, real-time speed, faster solver, brush tools.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.5.zip",
+ "size": 39253736
 }
