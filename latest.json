@@ -1,6 +1,6 @@
 {
- "version": "0.1.2.8",
- "notes": "New in 0.1.2.8 - closer view, edge to edge, faster:\n- A bit closer: levels are 32 m wide (was 40 m). On 1440p screens every game pixel is exactly 5x5 screen pixels, perfectly sharp.\n- Edge to edge: the test tank is as wide as your screen (21:9 and 32:9 too), no empty side areas.\n- Faster pressure solver: it now runs on all CPU cores (16 fixed bands, so results stay identical on every PC) and stops as soon as it is accurate enough.\n- Worker threads react faster between the solver's many small steps.\n- The log now records how long each part of the solver takes.\n\nFrom 0.1.2.7: water stability fixes, multi-core fix, scene 4 (blocks).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.8.zip",
- "size": 39259925
+ "version": "0.1.2.9",
+ "notes": "New in 0.1.2.9 - speed:\n- New pressure solver (multigrid): needs 3-4 rounds instead of 20-60, and uses all CPU cores.\n- Calm water takes one step per frame instead of two.\n- The volume fix and foam now run on all cores.\n- F5: benchmark - 30 seconds of a full level of water (about 83,000 particles). The result is shown on screen, saved, and sent automatically as a report. Please run it on both PCs!\n- Scene 5: the benchmark level.\n\nFrom 0.1.2.8: 32 m view, edge to edge, sharp 5x pixels on 1440p.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.9.zip",
+ "size": 39268162
 }
