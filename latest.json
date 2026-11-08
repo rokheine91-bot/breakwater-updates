@@ -1,0 +1,6 @@
+{
+ "version": "0.1.1",
+ "notes": "New:\n- First version of the water simulation: one water pixel = one simulated particle.\n- Real water pressure (water can't be squeezed), splashing and flowing around obstacles.\n- Three test scenes: 1 dam break, 2 still water (must stay calm), 3 two water columns colliding.\n- Pour water with the left mouse button, draw walls with the right, erase walls with the middle button.\n- Space pauses, R resets. Frame time and particle count are shown at the top.\n\nKnown limits (on purpose for this step):\n- All graphics are placeholders.\n- The solver runs on one CPU core; speed comes in 0.1.2.\n- No tsunami, ground or destruction yet.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.1.zip",
+ "size": 38359205
+}
