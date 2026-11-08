@@ -1,6 +1,6 @@
 {
- "version": "0.1.2.5",
- "notes": "New in 0.1.2.5 - automatic bug reports:\n- After a crash, the next start makes a bug report by itself and sends it to the developer.\n- The first serious error in a session also makes and sends a report automatically.\n- F12 makes and sends a report at once.\n- A report holds both session logs, the game state and a screenshot. If sending fails (offline), it is kept and sent on a later start.\n\nFrom 0.1.2.4: crash fix, logger (%APPDATA%\\TsunamiDefense\\logs), F3 debug overlay.\nFrom 0.1.2.3: realistic water look (O switches).\nFrom 0.1.2.2: water keeps its volume (D switches the fix).\nFrom 0.1.2.1 / 0.1.2: settings (Esc), widescreen, real-time speed, faster solver, brush tools.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.5.zip",
- "size": 39253736
+ "version": "0.1.2.6",
+ "notes": "New in 0.1.2.6 - closer view:\n- Levels are now 40 m wide instead of 60 m: everything is 1.5x bigger. Pixels scale exactly 3x on 1080p and 4x on 1440p screens (including 3440x1440), so they stay perfectly sharp.\n- Menus and text are drawn at your screen's real resolution, sharp at any size.\n- Quit button (top right and in Settings).\n- The log and debug overlay (F3) now show how long drawing the water takes each frame.\n- The solver can use up to 32 threads (was 16).\n\nFrom 0.1.2.5: automatic bug reports (crash, serious error, F12).\nFrom 0.1.2.4: crash fix, logger, F3 debug overlay.\nFrom 0.1.2.3: realistic water look (O switches).\nFrom 0.1.2.2: water keeps its volume (D switches the fix).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.6.zip",
+ "size": 39255857
 }
