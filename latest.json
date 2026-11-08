@@ -1,6 +1,6 @@
 {
- "version": "0.1.2.6",
- "notes": "New in 0.1.2.6 - closer view:\n- Levels are now 40 m wide instead of 60 m: everything is 1.5x bigger. Pixels scale exactly 3x on 1080p and 4x on 1440p screens (including 3440x1440), so they stay perfectly sharp.\n- Menus and text are drawn at your screen's real resolution, sharp at any size.\n- Quit button (top right and in Settings).\n- The log and debug overlay (F3) now show how long drawing the water takes each frame.\n- The solver can use up to 32 threads (was 16).\n\nFrom 0.1.2.5: automatic bug reports (crash, serious error, F12).\nFrom 0.1.2.4: crash fix, logger, F3 debug overlay.\nFrom 0.1.2.3: realistic water look (O switches).\nFrom 0.1.2.2: water keeps its volume (D switches the fix).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.6.zip",
- "size": 39255857
+ "version": "0.1.2.7",
+ "notes": "New in 0.1.2.7 - water stability fixes:\n- Fixed water \"exploding\" after a while (speeds running away, air holes and vertical streaks inside the water). Now the water settles calmly, also between concrete blocks.\n- Fixed a rare multi-core bug that could make results differ between runs. Results are identical again on any number of cores (now tested on two scenes).\n- Spray droplets fly straight instead of gaining energy; a safety limit stops any water going faster than 50 m/s.\n- New test scene 4: water flowing over and between concrete blocks.\n- Fixed a harmless error on the very first start (missing reports folder) that made an automatic bug report.\n\nFrom 0.1.2.6: 40 m levels (closer view), sharp menus, Quit button.\nFrom 0.1.2.5: automatic bug reports (crash, serious error, F12).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.7.zip",
+ "size": 39257085
 }
