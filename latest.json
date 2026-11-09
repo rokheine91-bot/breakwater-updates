@@ -1,6 +1,6 @@
 {
- "version": "0.1.3.8",
- "notes": "New in 0.1.3.8 - tsunami step 2 (wave programs):\n- Space now runs a wave program; W picks the program, Up/Down sets the height of its biggest wave.\n- Programs: Single wave; Drawback (the sea pulls back from the beach first, then the crest comes); Wave train (3 waves, the 2nd is the biggest); Level program (4 waves, the 3rd is the biggest).\n- The info bar shows the program and when the next wave comes.\n- Wave programs come from a level file (levels/beach.json); the sea floor will be added there in 1.4.\n- Bug fix: the wave maker kept pumping water in, so the sea rose until it flooded the land (about 75% more water after 25 s, even without a wave). The sea now stays at its level and is much calmer.\n\nFrom 0.1.3.7: Performance mode for laptops (Esc > Simulation quality).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.8.zip",
- "size": 38387162
+ "version": "0.1.3.9",
+ "notes": "New in 0.1.3.9 - tsunami step 3 (breaking):\n- New wave shape: the bore, a steep wall of water with a flood behind it. That is what a real tsunami has become after crossing kilometres of shallow sea, so it is how it arrives at the last stretch of coast we show.\n- New scene 7 (key 7): reef shelf. A shallow shelf in front of the beach: the bore breaks, foams and floods the land.\n- New programs (W): 'Bore: a wall of water, the sea pulls back first'; the level program's biggest wave is now a bore.\n- Spray now has air drag: thrown water arcs and falls instead of flying across the level.\n- Whitewater: water that is hit hard (bore fronts, crashes) turns white the same way in Normal and Performance mode.\n- The wave maker sits 4 m further off-screen: no more notch and splash at the right edge of the screen.\n- Scene 6 (steep beach): waves surge up without breaking. That is correct physics for steep coasts.\n\nFrom 0.1.3.8: wave programs (W), drawback, sea level bug fixed.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.9.zip",
+ "size": 38387401
 }
