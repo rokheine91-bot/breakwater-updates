@@ -1,6 +1,6 @@
 {
- "version": "0.1.4.3",
- "notes": "New in 0.1.4.3 - fixes from your two bug reports:\n- Painting ground into moving water could make the whole sea explode. Fixed.\n- Water slowly vanished into tiny gaps between painted strokes (up to a quarter of the sea). Water squeezed into a crevice is now pushed back out to where it can flow, never through a wall.\n- Thin water films no longer freeze on concrete; they drain.\n- Painted ground pushes water aside through open space only, never to the other side of a wall.\n- Water looks: only Pixel realistic, Solid blue and Shaders (B) remain.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.3.zip",
- "size": 38215519
+ "version": "0.1.4.4",
+ "notes": "New in 0.1.4.4 - ground that reacts to the water (sub-phase 1.4 demo):\n- Erosion: fast water wears sand away (clay much more slowly; rock and concrete never). The sand travels in the water - murky brown with swirling grains - and settles where the water slows.\n- Slumping: sand cannot stand steeper than 32 degrees; paint a sand wall and it slides into a pile. Clay stands almost vertical.\n- Bed friction: each ground type has its real roughness.\n- B: five sea bed shapes in scene 6 - rock coast, reef shelf, sandy bay with a sandbar, long gentle shelf, clay cliff.\n- Run-up readout fixed: it now measures the highest ground the water actually reached (before, splash against the screen edge read as 7-10 m). Water that reaches the left edge has flooded the town and leaves the level.\n- Erosion runs 30x faster than real time (a real tsunami floods for minutes, ours for seconds - coastal models do the same).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.4.zip",
+ "size": 38228877
 }
