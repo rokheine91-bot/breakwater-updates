@@ -1,6 +1,6 @@
 {
- "version": "0.1.4.6",
- "notes": "New in 0.1.4.6 - smaller pixels:\n- 20 pixels per metre instead of 16 (a water pixel is now 5 cm instead of 6.25 cm). The level is the same 32 m x 18 m, now 640 x 360 pixels.\n- Pixels are now perfectly sharp on 1080p (3x), 1440p (4x) and 4K (6x) screens.\n- The water calculation costs about twice as much (more, smaller pixels). Performance mode is also finer and about 1.6x slower than before.\n- The coast now runs all the way to the left edge of the screen.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.6.zip",
- "size": 38231292
+ "version": "0.1.4.7",
+ "notes": "New in 0.1.4.7 - one accuracy for everyone:\n- The Fast and Performance simulation modes are gone: they simulated less accurate water. Everyone now runs the same water.\n- A PC that cannot calculate the water in real time plays it in slow motion instead. The result is exactly the same, it just takes longer to watch. The info bar shows the speed (1.00x = real time).\n- (From 0.1.4.6: 20 pixels per metre, smaller sharper pixels.)",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.7.zip",
+ "size": 38230618
 }
