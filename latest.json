@@ -1,6 +1,6 @@
 {
- "version": "0.1.3.6",
- "notes": "New in 0.1.3.6 - optimization pass (laptops):\n- New setting: Esc > Simulation quality > \"Fast (laptops)\". About 35% less work per frame: slightly less precise pressure and the volume fix every second frame. Water still keeps its volume.\n- When a PC cannot keep up, the water now runs in slight slow motion instead of stuttering worse and worse.\n- Laptops with 4-8 threads now use more of their cores.\n- The water picture is built on all cores, without allocating memory every frame.\n- Removed wasted work every frame (checksum and volume value were recalculated over all water several times per frame).\n\nPlease on the laptop: set Fast, then press F5 (benchmark) and F12 - that tells me exactly what the laptop needs next.\n\nFrom 0.1.3.5: realistic light in Shaders B.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.6.zip",
- "size": 39288600
+ "version": "0.1.3.7",
+ "notes": "New in 0.1.3.7 - Performance mode for laptops:\n- New setting: Esc > Simulation quality > \"Performance\". The water runs at half resolution (each water grain is 2x2 pixels), about 4-5x faster. Waves and gameplay behave the same, the edge and foam are a bit chunkier. Changing it restarts the level.\n- If the water is too heavy for the PC, the game now suggests Performance mode after about 10 seconds.\n- Bug reports: the game now says on screen whether a report was sent or failed.\n- Bug reports: if the secure connection to GitHub is refused, the game retries with the certificates Windows trusts (fix for the laptop uploads).\n\nOn the laptop: Esc > Simulation quality > Performance, then play. Press F12 once to check that reports now arrive.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.7.zip",
+ "size": 38381477
 }
