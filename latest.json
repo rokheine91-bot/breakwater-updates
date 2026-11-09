@@ -1,6 +1,6 @@
 {
- "version": "0.1.3.5",
- "notes": "New in 0.1.3.5 - Shaders B goes realistic:\n- Light in the water now follows real physics: water absorbs red light fastest, then green, then blue. Shallow water is clear and turquoise, deeper water fades to dark blue-green, and whatever is behind the water fades out naturally with depth.\n- The water's own blue-green glow is dimmer the deeper it is (less sunlight reaches down).\n- Softer edge where the underwater backdrop starts.\n- Choose it with F6 (or Esc > Water look > Shaders B). Shaders A is unchanged for comparison.\n\nFrom 0.1.3.4: Shaders B clear water with underwater backdrop.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.5.zip",
- "size": 39285799
+ "version": "0.1.3.6",
+ "notes": "New in 0.1.3.6 - optimization pass (laptops):\n- New setting: Esc > Simulation quality > \"Fast (laptops)\". About 35% less work per frame: slightly less precise pressure and the volume fix every second frame. Water still keeps its volume.\n- When a PC cannot keep up, the water now runs in slight slow motion instead of stuttering worse and worse.\n- Laptops with 4-8 threads now use more of their cores.\n- The water picture is built on all cores, without allocating memory every frame.\n- Removed wasted work every frame (checksum and volume value were recalculated over all water several times per frame).\n\nPlease on the laptop: set Fast, then press F5 (benchmark) and F12 - that tells me exactly what the laptop needs next.\n\nFrom 0.1.3.5: realistic light in Shaders B.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.6.zip",
+ "size": 39288600
 }
