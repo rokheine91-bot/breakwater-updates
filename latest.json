@@ -1,6 +1,6 @@
 {
- "version": "0.1.4.1",
- "notes": "New in 0.1.4.1 - crisp pixels:\n- Sharp pixels is now the default (Esc > Pixel scaling): every game pixel is the same size on screen. Before, on a 1080p screen one game pixel was 3.75 screen pixels, so some were drawn 3 and some 4 wide. On such screens the game rounds up and crops a few pixels of sky and wall.\n- Glow removed from the shader looks (it made soft halos around foam).\n- Water effects (light shafts, caustics, glints, refraction) now animate in steps like pixel-art water, and refraction moves whole pixels only: no more shimmer.\n- The water is drawn from the water density around each pixel: the surface flickers much less (0.47% -> 0.19% of water pixels per frame after a wave) and there are no small holes inside the water.\n- Colours inside the water are smoothed: no checkerboard speckle.\n- Foam rework stays planned for 1.7 (final water look).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.1.zip",
- "size": 38397653
+ "version": "0.1.4.2",
+ "notes": "New in 0.1.4.2 - ground types (1.4 item 1):\n- Four ground types: concrete, rock, clay and sand. Press M (or the button left of Tsunami!) to pick which one the right mouse button paints; Ctrl+right click removes any ground.\n- Scene 6: rock coast, sand on the land and sea floor. Scene 7: sand beach and land, rock reef.\n- For now the types only look different (placeholder colours, real art later). Friction, erosion and slumping come in the next steps and will use real values: sand erodes easily and slumps to 32 degrees, clay resists much more, rock and concrete never erode.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.2.zip",
+ "size": 38402143
 }
