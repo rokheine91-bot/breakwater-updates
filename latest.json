@@ -1,6 +1,6 @@
 {
- "version": "0.1.3.3",
- "notes": "New in 0.1.3.3 - shader test look:\n- New water look \"Shaders (test)\": sky with sun, drifting clouds and distant hills; deep water with slanted light shafts; see-through water near the surface; glinting surface; dancing caustic light on concrete under water; textured concrete blocks; soft glow.\n- It is switched on once for you. Switch back any time: Esc > Water look, or F6 to cycle the looks.\n- Still pixel-art crisp: everything is drawn at game resolution.\n- This is a test of the direction, not final art (the real art comes later).\n\nFrom 0.1.3.2: picture hotfix. From 0.1.3.1: concrete pushes water aside, Tsunami! button and SPACE, new keys (F1).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.3.zip",
- "size": 39284569
+ "version": "0.1.3.4",
+ "notes": "New in 0.1.3.4 - second shader test look:\n- Water look \"Shaders B (clear see-through water)\": the water is mostly transparent with a turquoise tint, like games with shader packs. Behind it there is now an underwater backdrop: rocks, swaying seaweed and a sandy bottom, darker with depth.\n- \"Shaders A\" (the look from 0.1.3.3) stays as it was, so you can compare.\n- Switch looks: Esc > Water look, or F6 to cycle (pixel realistic, flat with outline, solid, Shaders A, Shaders B).\n\nFrom 0.1.3.3: Shaders A test look. From 0.1.3.1: concrete pushes water aside, Tsunami! button and SPACE, new keys (F1).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.4.zip",
+ "size": 39285521
 }
