@@ -1,6 +1,6 @@
 {
- "version": "0.1.4.7",
- "notes": "New in 0.1.4.7 - one accuracy for everyone:\n- The Fast and Performance simulation modes are gone: they simulated less accurate water. Everyone now runs the same water.\n- A PC that cannot calculate the water in real time plays it in slow motion instead. The result is exactly the same, it just takes longer to watch. The info bar shows the speed (1.00x = real time).\n- (From 0.1.4.6: 20 pixels per metre, smaller sharper pixels.)",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.7.zip",
- "size": 38230618
+ "version": "0.1.4.8",
+ "notes": "New in 0.1.4.8 - faster water:\n- About 1.4-1.6x faster water calculation on one core (calm sea about 1.6x, during waves about 1.5x), winning back most of what the smaller pixels cost.\n- The game now needs a CPU with AVX2 (Intel since 2013, AMD since 2015).\n- Please run the F5 benchmark once: it tells how the speed-up looks on your PC with all cores.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.8.zip",
+ "size": 38241046
 }
