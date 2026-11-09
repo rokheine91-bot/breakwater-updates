@@ -1,6 +1,6 @@
 {
- "version": "0.1.3.1",
- "notes": "New in 0.1.3.1:\n- Fixed water \"draining\": drawing concrete over water deleted that water. Now concrete pushes the water aside (up first, then sideways) - no water is ever lost.\n- Fixed water getting crushed into thin layers under concrete: squeezed water now pushes itself back apart within a couple of seconds.\n- Tsunami! button (top bar) and SPACE send a tsunami from anywhere: the game switches to the beach scene by itself. The game now starts on the beach.\n- New keys: SPACE tsunami, Up/Down wave height, P pause, R reset, 1-6 scenes, Q brush shape, F1 shows all keys, F6 water look, F7 volume fix (test).\n\nFrom 0.1.3.0: wave maker and beach scene (1.3 step 1).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.1.zip",
- "size": 39284088
+ "version": "0.1.3.2",
+ "notes": "New in 0.1.3.2 (hotfix):\n- Fixed the picture in 0.1.3.1: concrete and ground were invisible, the floor was black and the water colours were washed out. A setting for the unfinished shader test had changed how the whole game reads its water picture.\n\nFrom 0.1.3.1: concrete pushes water aside (no water lost), crushed water expands again, Tsunami! button and SPACE, new keys (F1 shows all).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.2.zip",
+ "size": 39284050
 }
