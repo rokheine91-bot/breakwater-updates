@@ -1,6 +1,6 @@
 {
- "version": "0.1.2.9",
- "notes": "New in 0.1.2.9 - speed:\n- New pressure solver (multigrid): needs 3-4 rounds instead of 20-60, and uses all CPU cores.\n- Calm water takes one step per frame instead of two.\n- The volume fix and foam now run on all cores.\n- F5: benchmark - 30 seconds of a full level of water (about 83,000 particles). The result is shown on screen, saved, and sent automatically as a report. Please run it on both PCs!\n- Scene 5: the benchmark level.\n\nFrom 0.1.2.8: 32 m view, edge to edge, sharp 5x pixels on 1440p.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.9.zip",
- "size": 39268162
+ "version": "0.1.2.10",
+ "notes": "New in 0.1.2.10:\n- Fixed the light vertical streaks in deep water (a drawing bug: small gaps between particles restarted the depth colour).\n- Fixed hitches (frames of 60-130 ms): the game used every logical core and starved Windows and its own render thread. It now uses one thread per physical core minus one.\n- Firmer water: the pressure solver works more precisely again (costs a little speed, multigrid keeps it cheap).\n\nFrom 0.1.2.9: multigrid pressure solver, F5 benchmark (your result: 5.5 ms average, target 8 ms).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.10.zip",
+ "size": 39268944
 }
