@@ -1,6 +1,6 @@
 {
- "version": "0.1.4.0",
- "notes": "New in 0.1.4.0 - sub-phase 1.4 (ground and erosion), part 1: smooth slopes\n- The ground is now exact to the pixel. Before, the water only saw it as 2x2 pixel blocks, so every slope was a staircase that braked the water.\n- Water slides along slopes and walls instead of catching on every step (free slip).\n- Run-up now matches lab measurements much better: Normal within 13% (was 22-35% too low), Performance mode within 13% for normal waves (was 35-46% too low).\n- Concrete is drawn per pixel: slopes look smooth.\n- Concrete brush is at least 3 px wide (thinner walls could leak).\n- Fixed: drawing thin concrete through water could break the water into a foam-like mesh.\n\nNext in 1.4: ground types (sand, clay, rock), sea bed shapes, bed friction, erosion.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.0.zip",
- "size": 38397938
+ "version": "0.1.4.1",
+ "notes": "New in 0.1.4.1 - crisp pixels:\n- Sharp pixels is now the default (Esc > Pixel scaling): every game pixel is the same size on screen. Before, on a 1080p screen one game pixel was 3.75 screen pixels, so some were drawn 3 and some 4 wide. On such screens the game rounds up and crops a few pixels of sky and wall.\n- Glow removed from the shader looks (it made soft halos around foam).\n- Water effects (light shafts, caustics, glints, refraction) now animate in steps like pixel-art water, and refraction moves whole pixels only: no more shimmer.\n- The water is drawn from the water density around each pixel: the surface flickers much less (0.47% -> 0.19% of water pixels per frame after a wave) and there are no small holes inside the water.\n- Colours inside the water are smoothed: no checkerboard speckle.\n- Foam rework stays planned for 1.7 (final water look).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.1.zip",
+ "size": 38397653
 }
