@@ -1,6 +1,6 @@
 {
- "version": "0.1.3.7",
- "notes": "New in 0.1.3.7 - Performance mode for laptops:\n- New setting: Esc > Simulation quality > \"Performance\". The water runs at half resolution (each water grain is 2x2 pixels), about 4-5x faster. Waves and gameplay behave the same, the edge and foam are a bit chunkier. Changing it restarts the level.\n- If the water is too heavy for the PC, the game now suggests Performance mode after about 10 seconds.\n- Bug reports: the game now says on screen whether a report was sent or failed.\n- Bug reports: if the secure connection to GitHub is refused, the game retries with the certificates Windows trusts (fix for the laptop uploads).\n\nOn the laptop: Esc > Simulation quality > Performance, then play. Press F12 once to check that reports now arrive.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.7.zip",
- "size": 38381477
+ "version": "0.1.3.8",
+ "notes": "New in 0.1.3.8 - tsunami step 2 (wave programs):\n- Space now runs a wave program; W picks the program, Up/Down sets the height of its biggest wave.\n- Programs: Single wave; Drawback (the sea pulls back from the beach first, then the crest comes); Wave train (3 waves, the 2nd is the biggest); Level program (4 waves, the 3rd is the biggest).\n- The info bar shows the program and when the next wave comes.\n- Wave programs come from a level file (levels/beach.json); the sea floor will be added there in 1.4.\n- Bug fix: the wave maker kept pumping water in, so the sea rose until it flooded the land (about 75% more water after 25 s, even without a wave). The sea now stays at its level and is much calmer.\n\nFrom 0.1.3.7: Performance mode for laptops (Esc > Simulation quality).",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.8.zip",
+ "size": 38387162
 }
