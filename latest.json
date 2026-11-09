@@ -1,6 +1,6 @@
 {
- "version": "0.1.4.2",
- "notes": "New in 0.1.4.2 - ground types (1.4 item 1):\n- Four ground types: concrete, rock, clay and sand. Press M (or the button left of Tsunami!) to pick which one the right mouse button paints; Ctrl+right click removes any ground.\n- Scene 6: rock coast, sand on the land and sea floor. Scene 7: sand beach and land, rock reef.\n- For now the types only look different (placeholder colours, real art later). Friction, erosion and slumping come in the next steps and will use real values: sand erodes easily and slumps to 32 degrees, clay resists much more, rock and concrete never erode.",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.2.zip",
- "size": 38402143
+ "version": "0.1.4.3",
+ "notes": "New in 0.1.4.3 - fixes from your two bug reports:\n- Painting ground into moving water could make the whole sea explode. Fixed.\n- Water slowly vanished into tiny gaps between painted strokes (up to a quarter of the sea). Water squeezed into a crevice is now pushed back out to where it can flow, never through a wall.\n- Thin water films no longer freeze on concrete; they drain.\n- Painted ground pushes water aside through open space only, never to the other side of a wall.\n- Water looks: only Pixel realistic, Solid blue and Shaders (B) remain.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.4.3.zip",
+ "size": 38215519
 }
