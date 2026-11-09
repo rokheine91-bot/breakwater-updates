@@ -1,6 +1,6 @@
 {
- "version": "0.1.2.10",
- "notes": "New in 0.1.2.10:\n- Fixed the light vertical streaks in deep water (a drawing bug: small gaps between particles restarted the depth colour).\n- Fixed hitches (frames of 60-130 ms): the game used every logical core and starved Windows and its own render thread. It now uses one thread per physical core minus one.\n- Firmer water: the pressure solver works more precisely again (costs a little speed, multigrid keeps it cheap).\n\nFrom 0.1.2.9: multigrid pressure solver, F5 benchmark (your result: 5.5 ms average, target 8 ms).",
- "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.2.10.zip",
- "size": 39268944
+ "version": "0.1.3.0",
+ "notes": "New in 0.1.3.0 - sub-phase 1.3 (the tsunami), step 1: wave maker and beach\n- Scene 6 (press 6): land on the left, a sloping beach, a 6 m deep sea on the right.\n- W sends a wave in from the right edge; [ and ] change its height (0.5-8 m, default 3 m).\n- The wave maker works like a lab wave tank: it sits hidden just off the right edge, pushes in the exact water level and speed of an arriving solitary wave, and absorbs waves that come back.\n- Note: a real tsunami is very long (a 3 m wave here is about 40 m long), so it arrives as a fast rise of the sea that floods the land - not yet a curling breaking wave. Breaking and the rushing bore come in step 3.\n- Foam now stays near the surface (no more foam blobs deep under water).\n\nFrom 0.1.2.10: streak fix, hitch fix, firmer water, multigrid solver, F5 benchmark.",
+ "url": "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.1.3.0.zip",
+ "size": 39278180
 }
