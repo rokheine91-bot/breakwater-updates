@@ -1,6 +1,6 @@
 {
-    "version":  "0.3.0",
-    "notes":  "Houses on the beach:\n- The beach levels now have houses from the destruction lab on their land (as many as fit; wide screens get more). The tsunami really hits them: they block the water, the water\u0027s push and current break them (the same joints, cracks and debris as in the lab), windows burst at about 0.6 m of water against them and doors at about 2 m, and the rooms behind fill up.\n- Wrecking ball tool (N switches its weight: 0.3, 1.5, 5, 20 t): press where it should start, release to drop it; drag to throw it.\n- F shows or hides the front walls of the houses (the cut shows the rooms and the water inside).\nNot yet: debris that floats or is carried by the water (next step); for now what falls into the sea is gone. A tsunami button in the destruction lab comes after that.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.3.0.zip",
-    "size":  38733974
+    "version":  "0.4.0",
+    "notes":  "Test build of the rework - please try it and tell me how it plays on your PCs:\n- Double resolution: 40 pixels per metre, the view is 48 x 27 m. The water, the ground and the destruction are all twice as fine.\n- Houses are still the old drawings enlarged 2x (native 40 px/m drawings and real 1-pixel bricks come later, after the art sample).\n- Includes everything from 0.2.5-0.3.0 (bug report video, collision and roof fixes, houses on the beach, wrecking ball).\n- The water is about 2x faster than the first 40 px/m try, but still too slow: on the workstation 11-14 fps while a big wave runs (the game plays it in slow motion rather than skipping). Your laptop will be slower. This is what decides between real 40 px/m water and water computed at 20 px/m and drawn smooth.\n- F5 benchmark and F12 bug reports work as before; an F12 report while a wave runs tells me exactly where the time goes.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.4.0.zip",
+    "size":  38739748
 }
