@@ -1,6 +1,6 @@
 {
-    "version":  "0.2.9",
-    "notes":  "Destruction lab - roofs:\n- A hit stays where it lands: the blow of a ball only reaches the joints within 1.5-3 m of the struck spot; further away the house feels only the weight pressing on it. Before, one hit tore joints at both ends of the roof in the same moment.\n- Roof tiles lie on the battens instead of being glued into one shell: a ball goes through, the tiles around the hole stay, only the ones above a broken rafter fall in.\n- The ball breaks the roof tiles it passes behind, so the hole is visible from the front; the ball is drawn behind the front wall.\n- The ball no longer rolls on endlessly through a wrecked house (it digs into rubble and stops), which caused late second collapses 10-20 s after the hit.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.9.zip",
-    "size":  38727755
+    "version":  "0.3.0",
+    "notes":  "Houses on the beach:\n- The beach levels now have houses from the destruction lab on their land (as many as fit; wide screens get more). The tsunami really hits them: they block the water, the water\u0027s push and current break them (the same joints, cracks and debris as in the lab), windows burst at about 0.6 m of water against them and doors at about 2 m, and the rooms behind fill up.\n- Wrecking ball tool (N switches its weight: 0.3, 1.5, 5, 20 t): press where it should start, release to drop it; drag to throw it.\n- F shows or hides the front walls of the houses (the cut shows the rooms and the water inside).\nNot yet: debris that floats or is carried by the water (next step); for now what falls into the sea is gone. A tsunami button in the destruction lab comes after that.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.3.0.zip",
+    "size":  38733974
 }
