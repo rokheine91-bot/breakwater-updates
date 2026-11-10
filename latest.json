@@ -1,6 +1,6 @@
 {
-    "version":  "0.2.5",
-    "notes":  "Bug reports now carry a video:\n- F12 (and the Report button in the lab) saves the last 10 seconds of the game as a video next to the picture and the log, and sends it with the report. Works in the water game and in the destruction lab.\n- The game keeps those 10 seconds in memory all the time (about 10 MB, no measurable slowdown). Only the game window is recorded.\n- The video is 960 x 540 at 15 frames per second, 7-15 MB per report; sending it takes a few seconds more than before.\n- A report made while another is still being sent now goes out right after it (before, it waited for the next start).\n- Report folders now show the right game version.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.5.zip",
-    "size":  38723125
+    "version":  "0.2.6",
+    "notes":  "- The bug report video (F12) is now full resolution (your screen size, 15 frames per second), so single pixels and brick detail are visible.\n- A report is now about 50 MB; sending it takes 20-60 seconds depending on your connection. The game keeps playing while it uploads.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.6.zip",
+    "size":  38723205
 }
