@@ -1,6 +1,6 @@
 {
-    "version":  "0.2.7",
-    "notes":  "- Fix: in 0.2.6 the full-resolution bug report video was too big for GitHub and was left out of the report (the picture and log still went). Big videos are now sent in parts of 15 MB, and a refused upload is written to the log instead of being skipped quietly.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.7.zip",
+    "version":  "0.2.8",
+    "notes":  "Destruction lab - no more domino collapses:\n- Fixed the main physics bug: loose pieces collided as plain rectangles the size of their outline, so stepped brick clusters and slanted roof pieces overlapped their neighbours by up to 30 cm. The physics shoved them apart with forces of thousands of kN, which broke the house as if it had been hit, and a falling house then flattened its neighbour the same way. Pieces now collide with shapes that follow their pixels.\n- A contact can only pass on what really pushes: the weight of what rests on it and the momentum it brings in.\n- A 1.5 t ball now punches a hole down to the ground floor and the house stays standing; the houses next to it are only hurt by what actually falls on them.\n- Debris from inside a house stays behind the front wall (it was drawn in front of everything).\n- Much less dust: a faint puff that fades quickly, instead of bright specks drifting over the street.\n- Breaking pieces no longer jump upwards; masonry and plaster break into bricks and chunks, only roof tiles and glass shatter.\n- Hits run up to 4 times faster, because the house no longer falls apart.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.8.zip",
     "size":  38723730
 }
