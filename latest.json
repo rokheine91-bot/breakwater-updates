@@ -1,6 +1,6 @@
 {
-    "version":  "0.2.6",
-    "notes":  "- The bug report video (F12) is now full resolution (your screen size, 15 frames per second), so single pixels and brick detail are visible.\n- A report is now about 50 MB; sending it takes 20-60 seconds depending on your connection. The game keeps playing while it uploads.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.6.zip",
-    "size":  38723205
+    "version":  "0.2.7",
+    "notes":  "- Fix: in 0.2.6 the full-resolution bug report video was too big for GitHub and was left out of the report (the picture and log still went). Big videos are now sent in parts of 15 MB, and a refused upload is written to the log instead of being skipped quietly.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.2.7.zip",
+    "size":  38723730
 }
