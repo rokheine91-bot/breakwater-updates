@@ -1,6 +1,6 @@
 {
-    "version":  "0.4.2",
-    "notes":  "- The water takes bigger steps: the bulk of the water may move 3 cells per substep (was 1.5). During a 3 m tsunami on the beach the water solver needs about 1 substep per frame instead of 2-3, and the solver time drops from about 42 ms to 28 ms per frame on the workstation.\n- Same results in the run-up, paint and determinism tests.\n- Includes the new buildings from 0.4.1.\n- Please try a big wave on your laptop and send an F12 report while it runs: it shows where the remaining time goes.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.4.2.zip",
-    "size":  38814130
+    "version":  "0.4.3",
+    "notes":  "- The water picture is now built on the graphics card. The water simulation itself stays on the processor, as agreed. During a 3 m tsunami the picture takes about 3 ms per frame instead of 11, and the workstation runs at 27-30 fps instead of 22.\n- The picture looks the same as before.\n- Includes the new buildings (0.4.1) and the bigger water steps (0.4.2).\n- If the water looks wrong or missing on your PC or laptop, send an F12 report: the game falls back to the old way if the graphics card cannot do it.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.4.3.zip",
+    "size":  38822533
 }
