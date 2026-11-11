@@ -1,6 +1,6 @@
 {
-    "version":  "0.4.3",
-    "notes":  "- The water picture is now built on the graphics card. The water simulation itself stays on the processor, as agreed. During a 3 m tsunami the picture takes about 3 ms per frame instead of 11, and the workstation runs at 27-30 fps instead of 22.\n- The picture looks the same as before.\n- Includes the new buildings (0.4.1) and the bigger water steps (0.4.2).\n- If the water looks wrong or missing on your PC or laptop, send an F12 report: the game falls back to the old way if the graphics card cannot do it.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.4.3.zip",
-    "size":  38822533
+    "version":  "0.4.4",
+    "notes":  "- The houses and the water now only exchange data in the area around the houses (was the whole land, mostly empty sky).\n- The houses picture is only redrawn when something about the houses changed.\n- Cheaper statistics every frame.\n- VSync \"on\" is now adaptive: when a frame is late the game no longer waits for the next screen refresh (that turned 20 ms frames into 33 ms ones).\n- Calm start screen on the workstation: 31-33 fps -\u003e 39 fps. The performance log (F12 reports) now shows where every millisecond of a frame goes.",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.4.4.zip",
+    "size":  38825685
 }
