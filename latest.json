@@ -1,6 +1,6 @@
 {
-    "version":  "0.4.4",
-    "notes":  "- The houses and the water now only exchange data in the area around the houses (was the whole land, mostly empty sky).\n- The houses picture is only redrawn when something about the houses changed.\n- Cheaper statistics every frame.\n- VSync \"on\" is now adaptive: when a frame is late the game no longer waits for the next screen refresh (that turned 20 ms frames into 33 ms ones).\n- Calm start screen on the workstation: 31-33 fps -\u003e 39 fps. The performance log (F12 reports) now shows where every millisecond of a frame goes.",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.4.4.zip",
-    "size":  38825685
+    "version":  "0.5.1",
+    "notes":  "The game is 3D now. Main phase 1 (water), sub-phase 1.1: the 3D water gets the 2D water\u0027s wave maker, wave programs, sea beds, flood marks and checks.\n\n- Same level file as the 2D game: 5 wave programs (P) and 5 sea beds (V), biggest wave with Up/Down\n- 8 m wave maker zone at the sea edge with the 2D wave shapes (single wave, drawback, bore, wave trains)\n- Water that reaches the far land edge drains away\n- Wet ground stays darker with a red line at the highest reach; run-up height and distance inland on screen\n- F12 bug reports with video, automatic crash reports (as in 2D)\n- Checks: wave height arrives at 98-100 %, wave speed within 3 %, run-up within 1-9 % of the lab law for H/d up to 0.15 (-20 % at 0.2), volume holds to 0.001 % in a closed tank, identical result on every run\n- Still in: the brick house, pouring water (left mouse), the wrecking ball (B)",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.5.1.zip",
+    "size":  38303019
 }
