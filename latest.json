@@ -1,6 +1,6 @@
 {
-    "version":  "0.5.1",
-    "notes":  "The game is 3D now. Main phase 1 (water), sub-phase 1.1: the 3D water gets the 2D water\u0027s wave maker, wave programs, sea beds, flood marks and checks.\n\n- Same level file as the 2D game: 5 wave programs (P) and 5 sea beds (V), biggest wave with Up/Down\n- 8 m wave maker zone at the sea edge with the 2D wave shapes (single wave, drawback, bore, wave trains)\n- Water that reaches the far land edge drains away\n- Wet ground stays darker with a red line at the highest reach; run-up height and distance inland on screen\n- F12 bug reports with video, automatic crash reports (as in 2D)\n- Checks: wave height arrives at 98-100 %, wave speed within 3 %, run-up within 1-9 % of the lab law for H/d up to 0.15 (-20 % at 0.2), volume holds to 0.001 % in a closed tank, identical result on every run\n- Still in: the brick house, pouring water (left mouse), the wrecking ball (B)",
-    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.5.1.zip",
-    "size":  38303019
+    "version":  "0.5.2",
+    "notes":  "Water 1.1 fixes after your first look.\n\n- The water now runs on the real clock: fixed 1/60 s steps, so a fast PC no longer plays it too fast (a PC that cannot keep up plays in slow motion, same result)\n- Twice the water resolution in both directions: 5 cm cells, the same as the 2D water (was 10 cm), with one surface point per cell\n- The water no longer drains away at the land edge: the whole level is closed\n- Red flood line removed (wet ground still shows darker)\n- Smoother bores and hydraulic jumps (no saw-tooth spikes), and the ground now uses exactly the same 5 cm sea bed as the water\n- Sharper picture: pixel size 2 by default (keys 1-4 still change it)",
+    "url":  "https://raw.githubusercontent.com/rokheine91-bot/breakwater-updates/main/builds/TsunamiDefense_windows_v0.5.2.zip",
+    "size":  38310039
 }
